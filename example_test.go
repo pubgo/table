@@ -4,7 +4,8 @@
 package table_test
 
 import (
-	"github.com/modood/table"
+	"github.com/pubgo/table"
+	"testing"
 )
 
 type House struct {
@@ -13,7 +14,7 @@ type House struct {
 	Motto string
 }
 
-func Example() {
+func TestExample(t *testing.T) {
 	hs := []House{
 		{"Stark", "direwolf", "Winter is coming"},
 		{"Targaryen", "dragon", "Fire and Blood"},

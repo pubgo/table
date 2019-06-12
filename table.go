@@ -60,8 +60,8 @@ func AsciiTable(slice interface{}) string {
 }
 
 func parse(slice interface{}) (
-	coln []string, // name of columns
-	colw []int, // width of columns
+	coln []string,   // name of columns
+	colw []int,      // width of columns
 	rows [][]string, // rows of content
 	err error,
 ) {
